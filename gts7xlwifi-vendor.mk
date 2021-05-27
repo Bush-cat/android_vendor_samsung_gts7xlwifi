@@ -22,11 +22,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/init/keymasterd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/keymasterd.rc \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM2_AMSA24VU01_WQXGA.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM2_AMSA24VU01_WQXGA.xml \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM3_AMSA24VU01_WQXGA.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM3_AMSA24VU01_WQXGA.xml \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0.json \
-    vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_ak991x_6.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_6.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_ak991x_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_2.json \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_ak991x_6.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_6.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_default_sensors.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_irq.json \
     vendor/samsung/gts7xlwifi/proprietary/vendor/etc/sensors/config/kona_lsm6dso_0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dso_0_0.json \
@@ -84,6 +86,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensor.s5kgh1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5kgh1.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensor.s5kgw2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5kgw2.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensor.s5khm1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5khm1.so \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5k3m5.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5k4ha.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5k4ha.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
@@ -131,6 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
@@ -153,6 +163,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensor.s5kgh1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.s5kgh1.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensor.s5kgw2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.s5kgw2.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensor.s5khm1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.s5khm1.so \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k3m5.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k4ha.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k4ha.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -200,12 +217,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/camera/w_tof_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_tof_calibration.bin \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.unihal.default.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
+    vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/samsung/gts7xlwifi/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
